@@ -1,0 +1,30 @@
+{
+  "name": "naked-string",
+  "version": "1.0.0",
+  "description": "Convert a string to plain, lowercase alphanumeric",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dar5hak/naked-string.git"
+  },
+  "keywords": [
+    "string",
+    "diacritics",
+    "alphanumeric"
+  ],
+  "author": "Darshak Parikh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dar5hak/naked-string/issues"
+  },
+  "homepage": "https://github.com/dar5hak/naked-string#readme",
+  "dependencies": {
+    "diacriticless": "^1.0.1"
+  },
+  "devDependencies": {
+    "xo": "^0.12.1"
+  }
+}
