@@ -1,6 +1,6 @@
 {
   "name": "naked-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a string to plain, lowercase alphanumeric",
   "main": "index.js",
   "scripts": {
