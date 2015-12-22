@@ -1,17 +1,24 @@
 # naked-string
-Convert a string to plain, lowercase alphanumeric
+> Convert a string to plain, lowercase alphanumeric
+
+[![circleci build](https://img.shields.io/circleci/project/dar5hak/naked-string.svg?style=flat-square)](https://circleci.com/gh/dar5hak/naked-string)
+[![npm version](https://img.shields.io/npm/v/naked-string.svg?style=flat-square)](https://www.npmjs.com/package/naked-string)
+[![license](https://img.shields.io/npm/l/naked-string.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Install
+
 ```bash
 npm install naked-string
 ```
 
 ## Usage
-```js
-const naked = require('naked-string');
 
-console.log(naked('Pokémon')) // => 'pokemon'
+```js
+const nakedString = require('naked-string');
+
+console.log(nakedString('Pokémon')) // => 'pokemon'
 ```
 
 ## License
+
 Apache-2.0 © [Darshak Parikh](github.com/dar5hak)
