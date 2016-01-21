@@ -1,9 +1,11 @@
 {
   "name": "naked-string",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convert a string to plain, lowercase alphanumeric",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "xo && ./test.js"
   },
