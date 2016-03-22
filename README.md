@@ -21,4 +21,4 @@ console.log(nakedString('Pokémon')) // => 'pokemon'
 
 ## License
 
-Apache-2.0 © [Darshak Parikh](github.com/dar5hak)
+Apache-2.0 © [Darshak Parikh](https://github.com/dar5hak)
