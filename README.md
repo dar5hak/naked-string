@@ -1,4 +1,6 @@
 # naked-string
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dar5hak/naked-string.svg)](https://greenkeeper.io/)
 > Convert a string to plain, lowercase alphanumeric
 
 [![circleci build](https://img.shields.io/circleci/project/dar5hak/naked-string.svg?style=flat-square)](https://circleci.com/gh/dar5hak/naked-string)
