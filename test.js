@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const assert = require('assert');
-const naked = require('./index');
+const naked = require('.');
 
 assert.equal(naked('plain'), 'plain');
 assert.equal(naked('Pokémon'), 'pokemon');
