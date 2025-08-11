@@ -1,4 +1,6 @@
-const diacriticless = require('diacriticless');
-const limitAlphanumeric = require('limit-alphanumeric');
+import diacriticless from 'diacriticless';
+import limitAlphanumeric from 'limit-alphanumeric';
 
-module.exports = str => limitAlphanumeric(diacriticless(str.toString()).toLowerCase());
+const nakedString = string_ => limitAlphanumeric(diacriticless(string_.toString()).toLowerCase());
+
+export default nakedString;

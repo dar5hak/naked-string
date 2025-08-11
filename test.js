@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const assert = require('assert');
-const naked = require('.');
+import assert from 'node:assert';
+import naked from './index.js';
 
 assert.strictEqual(naked('plain'), 'plain');
 assert.strictEqual(naked('Pokémon'), 'pokemon');
