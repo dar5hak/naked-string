@@ -33,6 +33,6 @@
     "limit-alphanumeric": "^1.0.0"
   },
   "devDependencies": {
-    "xo": "^1.2.1"
+    "xo": "^4.0.0"
   }
 }
